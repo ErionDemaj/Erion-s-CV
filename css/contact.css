@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Small device */
+@media(max-width:576px){
+    body{
+        background-image: url(../img/contactt2.jpg);
+        width: 100%;
+        background-repeat: repeat-y !important;
+        background-size: cover !important;
+        
+        
+    }
+
+    header ul li a{
+        color: #fff;
+        text-decoration: none;
+        
+    }
+    header ul li a:hover{
+        color: rgb(177, 226, 255);
+        box-shadow: 2px 2px 2px 2px;
+    }
+    
+    header ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 18px !important;
+        padding: 35px 0px !important;
+        color: #fff;
+        list-style: none;
+    }
+    main .contact h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 26px !important;
+        padding-top: 50px;
+    }
+    
+    main .contact a{
+        color: #fff;
+        padding: 8px 20px 8px 20px;
+    }
+    
+    main .contact a:hover{
+        color: rgb(177, 226, 255);
+        box-shadow: 2px 2px 2px 2px;
+        border-radius: 5px;
+    }
+    
+    main .contact h2 {
+        display: grid;
+        align-items: center;
+        justify-content: center; 
+        text-align: center;
+        font-size: 24px;
+        padding: 10px 100px;
+        color: #fff;
+    }
+    
+    main .contact .icons{
+        display:flex;
+        align-items: center !important;
+        justify-content:space-evenly;
+        padding:20px 0px !important ;
+        padding-left:20px ;
+        font-size: 24px !important;
+        line-height: 0px !important;
+        padding-top: 40% !important;
+    }
+    .icons a {
+        color: #fff !important;
+        border: 4px solid #1b5c02 !important;
+        border-radius:10px;
+        padding: 10px 10px !important;
+        font-size: 20px;
+        font-family: tahoma;
+        cursor: pointer;
+        font-weight: bold;
+        filter: drop-shadow(0 0 15px #1b5c02) drop-shadow(0 0 50px #1b5c02) contrast(2) brightness(2);
+        transition: .5s;
+    }
+    
+    .icons a:hover {
+        color: black;
+        background-color: #1b5c02;
+        filter: drop-shadow(0 0 20px #1b5c02) contrast(2) brightness(2);
+    }
+    
+}
+/* Medium device */
+@media(min-width:576px){
+    body{
+        background-image: url(../img/contact5.PNG);
+        width: 100%;
+        background-repeat:no-repeat !important;
+        background-size: 100%;
+        background-size: cover;
+        height: 100vh;
+        
+        
+    }
+
+    header ul li a{
+        color: #fff;
+        text-decoration: none;
+        
+    }
+    header ul li a:hover{
+        color: rgb(177, 226, 255);
+        box-shadow: 2px 2px 2px 2px;
+    }
+    
+    header ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 18px !important;
+        padding: 20px 0px ;
+        color: #fff;
+        list-style: none;
+    }
+    main .contact h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 100px;
+        color: #fff;
+        font-size: 26px !important;
+    }
+    
+    main .contact a{
+        color: #fff;
+        padding: 8px 20px 8px 20px;
+    }
+    
+    main .contact a:hover{
+        color: rgb(177, 226, 255);
+        box-shadow: 2px 2px 2px 2px;
+        border-radius: 5px;
+    }
+    
+    main .contact h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        text-align: center;
+        font-size: 24px;
+        padding: 10px 100px;
+        color: #fff;
+    }
+    
+    main .contact .icons{
+        display:flex;
+        align-items: center !important;
+        justify-content:space-evenly;
+        padding:20px 0px !important ;
+        padding-left:20px ;
+        font-size: 24px !important;
+        line-height: 0px !important;
+        
+    }
+    .icons a {
+        color: #db3eb1;
+        border: 4px solid #db3eb1 !important;
+        border-radius:15px;
+        padding: 8px 8px !important;
+        font-size: 20px;
+        font-family: tahoma;
+        cursor: pointer;
+        font-weight: bold;
+        filter: drop-shadow(0 0 15px #db3eb1) drop-shadow(0 0 50px #db3eb1) contrast(2) brightness(2);
+        transition: .5s;
+    }
+    
+    .icons a:hover {
+        color: black;
+        background-color: #db3eb1;
+        filter: drop-shadow(0 0 20px #db3eb1) contrast(2) brightness(2);
+    }
+}
+/* large device */
+@media(min-width:1200px){
+    body{
+        background-image: url(../img/contact5.PNG);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        
+    }
+    header ul li a{
+        color: #fff;
+        text-decoration: none;
+    }
+    header ul li a:hover{
+        color: rgb(177, 226, 255);
+        box-shadow: 2px 2px 2px 2px;
+    }
+    
+    header ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 25px !important;
+        padding: 20px 0px ;
+        color: #fff;
+        list-style: none;
+        padding-top: 50px !important;
+    }
+    main .contact h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 100px;
+        color: #fff;
+        font-size: 42px;
+    }
+    
+    /* main .contact a{
+        color: #fff;
+        padding: 8px 20px 8px 20px;
+    }
+    
+    main .contact a:hover{
+        color: rgb(177, 226, 255);
+        box-shadow: 2px 2px 2px 2px;
+        border-radius: 5px;
+    } */
+    
+    main .contact h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 100px;
+        color: #ffffff;
+    }
+    
+    main .contact .icons{
+        display:flex;
+        align-items: start;
+        justify-content: space-evenly;
+        padding:200px 200px !important;
+        padding-left:20px ;
+        font-size: 32px;
+        line-height: 60px;
+        
+    }
+    main .contact .icons{
+        display:flex;
+        align-items: start;
+        font-size: 100px;
+        line-height: 40px;
+        
+    }
+    .icons a {
+        color: #db3eb1;
+        border: 6px solid #db3eb1;
+        border-radius:15px;
+        padding: 15px 25px;
+        font-size: 20px;
+        font-family: tahoma;
+        letter-spacing:5px;
+        cursor: pointer;
+        font-weight: bold;
+        filter: drop-shadow(0 0 15px #db3eb1) drop-shadow(0 0 50px #db3eb1) contrast(2) brightness(2);
+        transition: .5s;
+    }
+    
+    .icons a:hover {
+        color: black;
+        background-color: #db3eb1;
+        filter: drop-shadow(0 0 20px #db3eb1) contrast(2) brightness(2);
+    }
+    
+}
+

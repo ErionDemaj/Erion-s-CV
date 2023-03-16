@@ -1,0 +1,634 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Small device */
+@media(max-width:576px){
+    header{
+        width: 30%;
+        height: 100vh;
+        position: fixed;
+        margin: 0;
+        background-color: #ffffff;
+    
+    }
+    
+    header img{
+        width: 100%;
+        }
+    
+    header .section1 h1{
+        font-size: 12px;
+        font-weight: 900;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 10px;
+    }    
+    
+    header .section1 p{
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }    
+    
+    header .info{
+        display: flex;
+        align-items: start;
+        justify-content: start ;
+        flex-direction: column;
+        padding-top: 40px;
+        background-color: #ffffff;
+    }
+    header .info a{
+        display: flex;
+        padding-top:30px ;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    header .info a i {
+        display: flex;
+        font-size: 14px;
+        align-items: start;
+        justify-content: start;
+        color: #000;
+    }
+    
+    header .info p{
+        display: flex;
+        font-size: 9px;
+        font-weight: 900;
+        padding-left: 10px;
+        text-align: center;
+        align-items: start;
+    
+    }
+    
+    header .info a i:hover{
+        color: rgb(0, 0, 0);
+        padding: 5px 15px;
+        box-shadow: 12px 11px 16px 4px rgba(0, 0, 0, 0.68);
+        -webkit-box-shadow: 12px 11px 16px 4px rgba(0, 0, 0, 0.68);
+        -moz-box-shadow: 12px 11px 16px 4px rgba(0, 0, 0, 0.68);
+    }
+    
+    
+    /* main */
+    
+    main .section2{
+        width: 70%;
+        margin-left: 30% !important;
+        display: grid;
+        background-color: #000;
+        
+    }
+    
+    main .section2  {
+        background-image: url(../img/phone1.jfif);
+        position: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 40%;
+        color: white;
+        display: grid;
+        grid-template-rows:repeat(4, 1fr);
+        align-items: center;
+        justify-content: center;
+        
+    }
+    main .section2 .info2{
+        --border-size: 3px !important;
+        --border-angle: 0turn;
+        width: 60vmin !important;
+        height: 62vmin !important;
+        background-image: conic-gradient(from var(--border-angle), rgba(34, 17, 51, 0.164), #112 50%, #213), conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03) !important;
+        background-size: calc(100% - (var(--border-size) * 2)) calc(100% - (var(--border-size) * 2)), contain ;
+        background-position: center center;
+        background-repeat: no-repeat !important;
+        -webkit-animation: bg-spin 3s linear infinite !important;
+                animation: bg-spin 3s linear infinite !important;
+        }
+        @-webkit-keyframes bg-spin {
+        to {
+            --border-angle: 1turn;
+        }
+        }
+        @keyframes bg-spin {
+        to {
+            --border-angle: 1turn;
+        }
+        }
+        .info2:hover {
+        -webkit-animation-play-state: running;
+                animation-play-state: running;
+
+        
+    }
+    @property --border-angle {
+        syntax: "<angle>";
+        inherits: true;
+        initial-value: 0turn;
+    }
+    
+    main .section2 h1{
+        color: #ffffff;
+        text-align: center;
+        justify-content: center;
+        display: grid;
+        font-size: 15px;
+        padding-top: 30%;
+    }
+    
+    main .section2 p{
+        color: #ffffff;
+        display: flex;
+        align-items: start; 
+        justify-content: center;
+        font-size: 15px;
+    }
+
+    .btn {
+        width: 120px;
+        height: 30px;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        background: transparent;
+        border: 1px solid #91C9FF;
+        background-color:transparent !important;
+        outline: none;
+        /* transition: 1s ease-in-out; */
+        /* position: relative; */
+    }
+    
+    svg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        fill: none;
+        /* stroke: #fff;
+        stroke-dasharray: 150 480;
+        stroke-dashoffset: 150;
+        transition: 1s ease-in-out; */
+    }
+    
+    .btn:hover {
+        transition: 1s ease-in-out !important;
+        background: #4F95DA !important;
+    }
+    
+    .btn:hover svg {
+        stroke-dashoffset: -480 !important;
+    }
+    
+    .btn a {
+        color: white;
+        text-align:center ;
+        font-size: 22px;
+        font-weight: 100;
+    }
+    
+    .container {
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        left: 50%;
+        top: 45%;
+        transform: translate(-50%, -50%) !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .center {
+        width: 180px;
+        height: 60px;
+        position: absolute;
+    }
+    
+    } 
+    
+
+
+/* Medium device */
+@media(min-width:576px){
+    header{
+        width:25%;
+        height: 100vh;
+        position: fixed;
+        margin: 0;
+    
+    }
+    
+    header img{
+        width: 100%;
+        
+        }
+    
+    header .section1 h1{
+        font-size: 22px;
+        font-weight: 900;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 10px;
+    }    
+    
+    header .section1 p{
+        font-size: 20px;
+        font-weight: 900;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }    
+    
+    header .info{
+        padding-top: 40px;
+    }
+    header .info a{
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        padding: 25px;
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: 900;
+    }
+    header .info a i {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+        color: #000;
+        
+    }
+    
+    header .info p{
+        font-size: 14px;
+        padding-left: 10px;
+        text-align: center;
+    
+    }
+    
+    header .info a i:hover{
+        color: rgb(0, 0, 0);
+        padding: 5px 15px;
+        box-shadow: 12px 11px 16px 4px rgba(0, 0, 0, 0.68);
+        -webkit-box-shadow: 12px 11px 16px 4px rgba(0, 0, 0, 0.68);
+        -moz-box-shadow: 12px 11px 16px 4px rgba(0, 0, 0, 0.68);
+    }
+    
+    
+    /* main */
+    
+    main .section2{
+        width: 75%;
+        margin-left: 25% !important;
+        display: grid;
+        background-color: #000;
+        
+    }
+    
+    main .section2  {
+        background-image: url(../img/phone1.jfif);
+        position: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        display: grid;
+        grid-template-rows:repeat(4, 1fr);
+        align-items: center;
+        justify-content: center;
+        
+    }
+    main .section2 .info2{
+        --border-size: 3px;
+        --border-angle: 0turn;
+        width: 60vmin;
+        height: 50vmin;
+        background-image: conic-gradient(from var(--border-angle), rgba(34, 17, 51, 0.164), #112 50%, #213), conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
+        background-size: calc(100% - (var(--border-size) * 2)) calc(100% - (var(--border-size) * 2)), cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        -webkit-animation: bg-spin 3s linear infinite;
+                animation: bg-spin 3s linear infinite;
+        }
+        @-webkit-keyframes bg-spin {
+        to {
+            --border-angle: 1turn;
+        }
+        }
+        @keyframes bg-spin {
+        to {
+            --border-angle: 1turn;
+        }
+        }
+        .info2:hover {
+        -webkit-animation-play-state: paused;
+                animation-play-state: paused;
+
+        
+    }
+    @property --border-angle {
+        syntax: "<angle>";
+        inherits: true;
+        initial-value: 0turn;
+    }
+    
+    main .section2 h1{
+        color: #ffffff;
+        text-align: center;
+        justify-content: center;
+        display: grid;
+        font-size: 35px;
+        padding-top: 10%;
+        font-family:cursive ;
+    }
+    
+    main .section2 p{
+        color: #ffffff;
+        font-family:cursive ;
+        display: flex;
+        align-items: start;
+        padding-bottom: 40%;
+        justify-content: center;
+        font-size: 32px;
+    }
+    
+    .btn {
+        width: 180px;
+        height: 60px;
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer;
+        background: transparent;
+        border: 1px solid #91C9FF;
+        background-color:transparent !important;
+        outline: none;
+        transition: 1s ease-in-out;
+        position: relative;
+    }
+    
+    svg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        fill: none;
+        stroke: #fff;
+        stroke-dasharray: 150 480;
+        stroke-dashoffset: 150;
+        transition: 1s ease-in-out;
+    }
+    
+    .btn:hover {
+        transition: 1s ease-in-out;
+        background: #4F95DA;
+    }
+    
+    .btn:hover svg {
+        stroke-dashoffset: -480;
+    }
+    
+    .btn a {
+        color: white;
+        text-align:center ;
+        font-size: 22px;
+        font-weight: 100;
+    }
+    
+    .container {
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        left: 50%;
+        top: 45%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .center {
+        width: 180px;
+        height: 60px;
+        position: absolute;
+    }
+}
+/* large device */
+@media(min-width:1200px){
+    header{
+        width: 10%;
+        height: 100vh;
+        position: fixed;
+        margin: 0;
+    
+    }
+    
+    header img{
+        width: 100%;
+        }
+    
+    header .section1 h1{
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 10px;
+    }    
+    
+    header .section1 p{
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }    
+    
+    header .info{
+        padding-top: 40px;
+    }
+    header .info a{
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        padding: 25px;
+        text-decoration: none;
+        font-size: 25px;
+    }
+    header .info a i {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+        color: #000;
+    }
+    
+    header .info p{
+        font-size: 14px;
+        padding-left: 10px;
+        text-align: center;
+    
+    }
+    
+    header .info a i:hover{
+        color: rgb(0, 0, 0);
+        padding: 5px 15px;
+        box-shadow: 12px 11px 16px 4px rgba(0, 0, 0, 0.68);
+        -webkit-box-shadow: 12px 11px 16px 4px rgba(0, 0, 0, 0.68);
+        -moz-box-shadow: 12px 11px 16px 4px rgba(0, 0, 0, 0.68);
+    }
+    
+    
+    /* main */
+    
+    main .section2{
+        width: 90%;
+        margin-left: 10% !important;
+        display: grid;
+        background-color: #000;
+        
+    }
+    
+    main .section2  {
+        background-image: url(../img/header2.jfif);
+        position: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        display: grid;
+        grid-template-rows:repeat(4, 1fr);
+        align-items: center;
+        justify-content: center;
+        
+    }
+    main .section2 .info2{
+        --border-size: 3px;
+        --border-angle: 0turn;
+        width: 60vmin;
+        height: 40vmin;
+        background-image: conic-gradient(from var(--border-angle), rgba(34, 17, 51, 0.164), #112 50%, #213), conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
+        background-size: calc(100% - (var(--border-size) * 2)) calc(100% - (var(--border-size) * 2)), cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        -webkit-animation: bg-spin 3s linear infinite;
+                animation: bg-spin 3s linear infinite;
+        }
+        @-webkit-keyframes bg-spin {
+        to {
+            --border-angle: 1turn;
+        }
+        }
+        @keyframes bg-spin {
+        to {
+            --border-angle: 1turn;
+        }
+        }
+        .info2:hover {
+        -webkit-animation-play-state: paused;
+                animation-play-state: paused;
+
+        
+    }
+    @property --border-angle {
+        syntax: "<angle>";
+        inherits: true;
+        initial-value: 0turn;
+    }
+    
+    main .section2 .info2{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        
+    }
+    
+    main .section2 h1{
+        color: #ffffff;
+        text-align: center;
+        justify-content: center;
+        display: grid;
+        font-size: 42px;
+        padding-top: 20%;
+        font-family:cursive ;
+    }
+    
+    main .section2 p{
+        color: #ffffff;
+        font-family:cursive ;
+        display: flex;
+        align-items: start;
+        padding-bottom: 40%;
+        justify-content: center;
+        font-size: 42px;
+    }
+    
+    
+    main .section2 a button:hover{
+        background-color: rgb(177, 226, 255);
+        transition: 1s ease-in-out;
+    }
+    .btn {
+        width: 180px;
+        height: 60px;
+        cursor: pointer;
+        color: #fff;
+        font-size: 22px;
+        background: transparent;
+        border: 1px solid #91C9FF;
+        background-color:transparent !important;
+        outline: none;
+        transition: 1s ease-in-out;
+        position: relative;
+    }
+    
+    svg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        fill: none;
+        stroke: #fff;
+        stroke-dasharray: 150 480;
+        stroke-dashoffset: 150;
+        transition: 1s ease-in-out;
+    }
+    
+    .btn:hover {
+        transition: 1s ease-in-out;
+        background: #4F95DA;
+    }
+    
+    .btn:hover svg {
+        stroke-dashoffset: -480;
+    }
+    
+    .btn a {
+        color: white;
+        text-align:center ;
+        font-size: 22px;
+        font-weight: 100;
+    }
+    
+    .container {
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        left: 50%;
+        top: 45%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .center {
+        width: 180px;
+        height: 60px;
+        position: absolute;
+    }
+}

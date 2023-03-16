@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Small device */
+@media(max-width:576px){
+    body{
+        background-image: url(../img/tab2.jfif);
+        background-repeat: no-repeat;
+        background-color: #fff;
+    }
+    
+    header{
+        width: 100%;
+        
+    }
+    header ul li a{
+        color: #fff;
+        text-decoration: none;
+        
+    }
+    header ul li a:hover{
+        color: rgb(177, 226, 255);
+        box-shadow: 2px 2px 2px 2px;
+    }
+    
+    header ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 18px;
+        padding: 30px 0px ;
+        color: #fff;
+        list-style: none;
+    }
+    .about-me{
+        display: grid;
+        padding: 20px 50px;
+        
+    }
+    
+    .about-me h1{
+        color: #ffff;
+        width: 100%;
+        font-size: 24px;
+        padding: 30px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-me p{
+        color: #ffff;
+        width: 100%;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    
+    main{
+        padding: 10px 40px;
+        
+    }
+    main .ph p{
+        color: #fff;
+        font-size: 20px;
+        margin: 10px 0 ;
+        color: #ffffff;
+    }
+    
+    main .line{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 18px;
+        background: linear-gradient(90deg,
+        #757575 92%, #fff 10%);
+    }
+    main .web p{
+        color: #ffffff;
+        margin:10px 0px;
+        font-size: 20px;
+        color: #ffffff;
+    }
+    
+    main .line2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 18px;
+        background: linear-gradient(90deg,
+        #757575 90%, #fff 15%);
+    }
+    
+    main .psh p{
+        color: #fff;
+        margin:10px 0px;
+        font-size: 20px;
+        color: #ffffff;
+    }
+    
+    main .line3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 18px;
+        background: linear-gradient(90deg,
+        #757575 85%, #ffffff 22%);
+    }
+    
+}
+/* medium device */
+@media(min-width:576px){
+    body{
+        background-image: url(../img/tab2.jfif);
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    header{
+        width: 100%;
+        
+    }
+    header ul li a{
+        color: #fff;
+        text-decoration: none;
+        
+    }
+    header ul li a:hover{
+        color: rgb(177, 226, 255);
+        box-shadow: 2px 2px 2px 2px;
+    }
+    
+    header ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 28px;
+        padding: 20px 0px ;
+        color: #fff;
+        list-style: none;
+    }
+    .about-me{
+        display: grid;
+        padding: 20px 50px;
+        
+    }
+    
+    .about-me h1{
+        color: #ffff;
+        width: 100%;
+        font-size: 32px;
+        padding: 30px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-me p{
+        color: #ffff;
+        width: 80%;
+        font-size: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align:center;
+        padding-left: 10%;
+        margin-top: 5%;
+
+    }
+    
+    main{
+        padding: 80px 15%;
+        
+    }
+    main .ph p{
+        color: #fff;
+        font-size: 22px;
+        margin: 10px 0 ;
+        color: #ffffff;
+    }
+    
+    main .line{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        height: 26px;
+        background: linear-gradient(90deg,
+        #757575 92%, #fff 10%);
+    }
+    main .web p{
+        color: #ffffff;
+        margin:10px 0px;
+        font-size: 22px;
+        color: #ffffff;
+    }
+    
+    main .line2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        height: 26px;
+        background: linear-gradient(90deg,
+        #757575 90%, #fff 15%);
+    }
+    
+    main .psh p{
+        color: #fff;
+        margin:10px 0px;
+        font-size: 22px;
+        color: #ffffff;
+    }
+    
+    main .line3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        height: 26px;
+        background: linear-gradient(90deg,
+        #757575 85%, #ffffff 22%);
+    }
+    
+}
+
+/* large device */
+@media(min-width:1200px){
+    body{
+    background-image: url(../img/tab2.jfif);
+    width: 100%;
+
+    background-size: cover;
+}
+
+header{
+    width: 100%;
+    height: 65vh;
+}
+header ul li a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+header ul li a:hover{
+    color: rgb(177, 226, 255);
+    box-shadow: 2px 2px 2px 2px;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 25px;
+    padding: 20px 0px ;
+    color: #fff;
+    list-style: none;
+}
+.about-me{
+    display: grid;
+    padding: 100px 50px;
+    
+}
+
+.about-me h1{
+    color: #ffff;
+    width: 20%;
+    font-size: 42px;
+    padding: 30px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    flex-direction: row;
+}
+.about-me p{
+    color: #ffff;
+    width: 25%;
+    font-size: 24px;
+    font-family: cursive;
+    display: flex;
+    text-align: start;
+    flex-direction: row;
+}
+
+main{
+    padding: 20px 40px;
+    
+}
+main .ph p{
+    color: #fff;
+    font-size: 28px;
+    margin: 10px 0 ;
+    color: #ffffff;
+}
+
+main .line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 28px;
+    background: linear-gradient(90deg,
+    #757575 92%, #fff 10%);
+}
+main .web p{
+    color: #ffffff;
+    margin:10px 0px;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+main .line2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 28px;
+    background: linear-gradient(90deg,
+    #757575 90%, #fff 15%);
+}
+
+main .psh p{
+    color: #fff;
+    margin:10px 0px;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+main .line3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 28px;
+    background: linear-gradient(90deg,
+    #757575 85%, #ffffff 22%);
+}
+
+}
